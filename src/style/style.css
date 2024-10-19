@@ -1,6 +1,15 @@
 .home {
   padding: 0rem 1rem;
 }
+@media screen and (max-width: 800px) {
+  .home {
+    padding: 15px 5px;
+  }
+  html{
+    font-size: 0.8rem;
+  }
+  
+}
 html {
   scroll-behavior: smooth;
 }
@@ -29,7 +38,7 @@ html {
 }
 .profile {
   padding: 2rem 4rem;
-  height: 65rem;
+
 }
 .profile h3 {
   font-size: 1.5rem;
@@ -42,17 +51,81 @@ html {
 }
 .profile img {
   width: 25rem;
-  height: 40rem;
+  height: 30rem;
   border-radius: 2rem;
+  border-radius: 2rem;
+  border : 0.5px solid rgb(177, 187, 197);
+}
+.download-btn {
+  background-color: rgb(24, 33, 160); 
+  color: white; 
+  font-family: 'urbanist', sans-serif; 
+  font-weight: bold; 
+  padding: 10px 20px; 
+  border-radius: 7px; 
+  border: none; 
+  cursor: pointer; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  text-transform: capitalize; 
+  transition: background-color 0.3s ease; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  
+}
+
+.download-btn:hover {
+  background-color: rgb(19, 27, 131); 
+}
+
+
+.download-btn:before {
+  content: "\f1c1"; 
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  margin-right: 10px; 
+}
+
+.download-btn:active {
+  transform: translateY(2px); 
+}
+
+@media screen and (max-width: 800px) {
+  
+  .download-btn {
+    
+padding: 10px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-transform: capitalize; 
+    transition: background-color 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 33, 160); 
+
+   
+  }
+  .download-btn:hover {
+    background-color: rgb(19, 27, 131); 
+  }
+  .download-btn:before {
+    content: "\f1c1"; 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+  
+  }
+  .download-btn:active {
+    transform: translateY(2px); 
+  }
+  
 }
 .profile-image {
   width: 25rem;
-  height: 40rem;
-  border-radius: 2rem;
-  box-shadow: 0 0px 2rem rgba(0, 0, 0, 0.5);
+  height: 30rem;
 
   position: relative;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -61,6 +134,25 @@ html {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+@media screen and (max-width: 800px) {
+  .profile {
+    
+    padding: 8rem 0rem;
+  }
+  .profile img {
+    width: 20rem;
+    height: 25rem;
+  }
+  .profile-image {
+    width: 20rem;
+    height: 35rem;
+  }
+  .profile-info {
+    padding: 0rem 0rem;
+    height: 30rem;
+  }
+  
 }
 
 .name {
@@ -89,7 +181,7 @@ html {
 }
 
 .cursus {
-  padding: 10rem 4rem;
+  padding: 0rem 4rem;
 }
 
 .cursus-item {
@@ -121,7 +213,36 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 800px) {
+  .cursus-item img {
+    width: 20rem;
+    height: 12rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  .cursus-item {
+    padding: 1rem 0rem;
+  }
+  .cursus {
+    padding: 25rem 0.5rem 0.5rem 0.5rem;
+    
+    font-size: 1rem;
+  }
 
+  .cursus-item h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "urbanist", sans-serif;
+    text-transform: capitalize;
+    color: rgb(24, 33, 160);
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+  }
+  
+  
+}
 .bac-img {
   width: 55rem !important;
   height: 25rem !important;
@@ -165,7 +286,8 @@ html {
 .Tools,
 .Operation_Systems,
 .IDEs,
-.Languages {
+.Languages,
+.DevOps{
   text-align: center !important;
   font-size: 1.5rem !important;
   font-weight: 700;
@@ -183,12 +305,61 @@ html {
   padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 800px) {
+  .skills {
+    padding: 10rem 0.5rem 0.5rem 0.5rem !important;
+    
+    font-size: 1rem;
+  }
+
+  .skills-item h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "urbanist", sans-serif;
+    text-transform: capitalize;
+    color: rgb(24, 33, 160);
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+  }
+  .skills-item img {
+    width: 3rem;
+    height: 5rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 2rem;
+  }
+  .list-skills {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+  .Frameworks,
+  .Databases,
+  .Streaming,
+  .Tools,
+  .Operation_Systems,
+  .IDEs,
+  .Languages,
+  .DevOps{
+    text-align: center !important;
+    font-size: 1rem !important;
+    font-weight: 700;
+    font-family: "cairo", sans-serif;
+    text-transform: capitalize;
+    padding: 1rem !important;
+  }
+  
+}
+
 .projects {
   padding: 2rem 4rem;
 }
 
 .project {
-  padding: 5rem 4rem 5rem 4rem;
+  padding: 5rem 4rem 1rem 4rem;
   border-radius: 2rem;
   border: 1px solid rgba(26, 26, 26, 0.46);
 }
@@ -227,9 +398,29 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.project-image{
+  padding: 2rem 0rem;
 
+  width: 90% !important;
+  height: 100% !important;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+.project-image-wrapper{
+  padding: 0rem 0rem;
+ 
+
+}
+.images-container{
+  
+
+}
 .project-tasks {
-  padding: 0rem 8rem 1rem 8rem;
+  padding: 0rem 3rem 1rem 3rem;
   font-size: 1rem;
   color: rgb(0, 0, 0);
   text-align: justify;
@@ -278,6 +469,77 @@ html {
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  .projects {
+    padding: 2rem 0.5rem;
+  }
+  .project {
+    padding: 1rem 0.5rem;
+  }
+  .project h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "urbanist", sans-serif;
+    text-transform: capitalize;
+    color: rgb(24, 33, 160);
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+  }
+  .project h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "cairo", sans-serif;
+    text-transform: capitalize;
+    color: rgb(26, 26, 26);
+    text-align: center;
+  }
+  .project p {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+  .project img {
+    width: 2rem;
+    height: 4rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .project-image {
+    padding: 2rem 0rem;
+    width: 90% !important;
+    height: 100% !important;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .project-image-wrapper {
+    padding: 0rem 0rem;
+  }
+  .images-container {
+  }
+  .project-tasks {
+    padding: 0rem 3rem 1rem 3rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family: "cairo", sans-serif;
+  }
+  .project-file {
+    padding: 2rem 0 0 0;
+    border-radius: 2rem;
+  }
+  .project-file p {
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 33, 160);
+    border: 1px solid rgb(24, 33, 160);
+  
+}
+}
+
 .contact-form{
   padding: 5rem 25rem;
   
@@ -315,3 +577,105 @@ html {
   background-color: rgb(255, 255, 255);
   color: rgb(24, 33, 160);
 }
+
+.wrapper-buttons-gallery{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 4rem;
+}
+.prev,.next{
+
+  height: fit-content;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+
+  transition: all 0.25s ease-in-out;
+}
+.next:hover , .prev:hover{
+
+  color: rgb(24, 33, 160);
+}
+.no-page{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "urbanist", sans-serif;
+  text-transform: capitalize;
+  color: rgb(24, 33, 160) !important;
+}
+
+
+.end {
+  color: slategray;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-form {
+    padding: 1rem 1rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+ 
+    border-radius: 1rem;
+    border: 1px solid rgb(24, 33, 160);
+    font-size: 1.2rem;
+    font-family: "cairo", sans-serif;
+    font-weight: 600;
+  }
+  .contact-form button {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+
+    border-radius: 1rem;
+    border: 1px solid rgb(24, 33, 160);
+    font-size: 1.2rem;
+    font-family: "cairo", sans-serif;
+    font-weight: 600;
+    background-color: rgb(24, 33, 160);
+    color: rgb(255, 255, 255);
+  }
+  .contact-form button:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 33, 160);
+  }
+  .wrapper-buttons-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.5rem;
+  }
+  .prev,
+  .next {
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    transition: all 0.25s ease-in-out;
+  }
+  .next:hover,
+  .prev:hover {
+    color: rgb(24, 33, 160);
+  }
+  .no-page {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "urbanist", sans-serif;
+    text-transform: capitalize;
+    color: rgb(24, 33, 160) !important;
+  }
+  .end {
+    color: slategray;
+  }
+  
+}
+
+
+
+

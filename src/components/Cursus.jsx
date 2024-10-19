@@ -40,7 +40,8 @@ function Cursus() {
   ];
 
   return (
-    <div id="My Story" className="cursus">
+    <div id="My Story">
+    <div  className="cursus max-[800px]:hidden">
       <h1>A brief story of Me</h1>
       {myLifeChapters.map((chapter, index) => (
         <div className="cursus-item  grid grid-cols-12 gap-10">
@@ -76,6 +77,30 @@ function Cursus() {
         </div>
       ))}
     </div>
+    <div  className="cursus min-[800px]:hidden">
+    <h1>A brief story of Me</h1>
+    {myLifeChapters.map((chapter, index) => (
+      <div className="cursus-item  grid  gap-10">
+        
+          <React.Fragment key={index}>
+            
+            <div className="cursus-info">
+              <h1 className="title">{chapter.title}</h1>
+              <p>{chapter.text}</p>
+            </div>
+            <div className="cursus-image ">
+              <img
+                src={chapter.image}
+                alt="cursus"
+                className={"" + chapter.className}
+              />
+            </div>
+          </React.Fragment>
+       
+      </div>
+    ))}
+  </div>
+  </div>
   );
 }
 export default Cursus;

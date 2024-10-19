@@ -155,6 +155,40 @@ function Skills() {
       ],
     },
     {
+      title: "DevOps",
+      skills: [
+        
+        {
+          name: "Docker",
+          level: "Intermediate",
+          icon: require("../assets/icons/docker-original.svg").default,
+        },
+        {
+          name: "Kubernetes",
+          level: "Intermediate",
+          icon: require("../assets/icons/kubernetes-original.svg").default,
+        },
+        
+        {
+          name: "ArgoCD",
+          level: "Intermediate",
+          icon: require("../assets/icons/argocd-original.svg").default,
+        },
+        {
+          name: "Prometheus",
+          level: "Intermediate",
+          icon: require("../assets/icons/prometheus-original.svg").default,
+        },
+        {
+          name: "Grafana",
+          level: "Intermediate",
+          icon: require("../assets/icons/grafana-original.svg").default,
+        },
+        
+        
+      ],
+    },
+    {
       title: "Tools",
       skills: [
         {
@@ -168,12 +202,12 @@ function Skills() {
           icon: require("../assets/icons/github-original.svg").default,
 
         },
-        {
-          name: "Docker",
-          level: "Intermediate",
-          icon: require("../assets/icons/docker-original.svg").default,
-        },
         
+        {
+          name: "Anaconda",
+          level: "Intermediate",
+          icon: require("../assets/icons/anaconda-original.svg").default,
+        },
         {
           name: "Jira",
           level: "Intermediate",
@@ -237,7 +271,7 @@ function Skills() {
       {mySkills.map((skill, index) => (
         <div key={index} className="skills-item">
           <h1 className="title">{skill.title}</h1>
-          <ul className="grid grid-cols-5 ">
+          <ul className="grid grid-cols-5 max-[800px]:grid-cols-3">
             {skill.skills.map((skil1, index) => (
               <div className="" key={index}>
                 {skil1.icon !== "" && <img src={skil1.icon} alt="" />}
