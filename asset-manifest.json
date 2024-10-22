@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.4c087b2a.css",
-    "main.js": "/MyPortfolio/static/js/main.178a7c41.js",
+    "main.js": "/MyPortfolio/static/js/main.dd229ee1.js",
     "static/js/453.ace21015.chunk.js": "/MyPortfolio/static/js/453.ace21015.chunk.js",
     "static/media/pi.png": "/MyPortfolio/static/media/pi.2b4302629e9abf8c700f.png",
     "static/media/image1.png": "/MyPortfolio/static/media/image1.09f3c713f57b9119cc20.png",
@@ -28,6 +28,10 @@
     "static/media/2digihrm.png": "/MyPortfolio/static/media/2digihrm.5adeaa3f5ff8ada10b90.png",
     "static/media/hardiot5.png": "/MyPortfolio/static/media/hardiot5.8fa131d28fdffa572635.png",
     "static/media/cv-aabouche-mohammed.pdf": "/MyPortfolio/static/media/cv-aabouche-mohammed.f9bd7caa9c621a61f7f8.pdf",
+    "static/media/chessgame1.jpeg": "/MyPortfolio/static/media/chessgame1.2fd50b219eec78ff0fa7.jpeg",
+    "static/media/chessgame4.jpeg": "/MyPortfolio/static/media/chessgame4.b59cff5688edaba0b9e2.jpeg",
+    "static/media/chessgame2.jpeg": "/MyPortfolio/static/media/chessgame2.8386231315fcc3bd76c8.jpeg",
+    "static/media/chessgame3.jpeg": "/MyPortfolio/static/media/chessgame3.9c818a47abf13d2fa58b.jpeg",
     "static/media/hardiot8.png": "/MyPortfolio/static/media/hardiot8.ab279516094574fdf4ac.png",
     "static/media/hardiot7.png": "/MyPortfolio/static/media/hardiot7.02147896774418d923e8.png",
     "static/media/hardiot9.png": "/MyPortfolio/static/media/hardiot9.ae1dd9fb6157800bfdfc.png",
@@ -80,11 +84,11 @@
     "static/media/html5-original.svg": "/MyPortfolio/static/media/html5-original.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/prisma-original.svg": "/MyPortfolio/static/media/prisma-original.229e6dee9c99e90511be9afbed1bc2c1.svg",
     "main.4c087b2a.css.map": "/MyPortfolio/static/css/main.4c087b2a.css.map",
-    "main.178a7c41.js.map": "/MyPortfolio/static/js/main.178a7c41.js.map",
+    "main.dd229ee1.js.map": "/MyPortfolio/static/js/main.dd229ee1.js.map",
     "453.ace21015.chunk.js.map": "/MyPortfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c087b2a.css",
-    "static/js/main.178a7c41.js"
+    "static/js/main.dd229ee1.js"
   ]
 }
