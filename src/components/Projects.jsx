@@ -131,11 +131,7 @@ function Projects() {
         "Provide a system for posting and sharing updates within the community",
         "Implement functionalities for exploring various tourist spots",
       ],
-      images: [
-        require("../assets/image2.png"),
-        require("../assets/image1.png"),
-        require("../assets/image1.png"),
-      ],
+     
       tech: [
         require("../assets/icons/react-original.svg").default,
         require("../assets/icons/nodejs-original.svg").default,
@@ -155,9 +151,12 @@ function Projects() {
         "Implement chess rules and move validation",
       ],
       images: [
-        require("../assets/image2.png"),
-        require("../assets/image1.png"),
-        require("../assets/image1.png"),
+        require("../assets/chessgame4.png"),
+        require("../assets/chessgame3.png"),
+        require("../assets/chessgame1.png"),
+        require("../assets/chessgame2.png"),
+        
+        
       ],
       tech: [
         require("../assets/icons/java-original.svg").default,
